@@ -1,0 +1,12 @@
+discord.py == 1.7.3
+requests == 2.28.1
+imgurpython == 1.1.7
+discord-py-slash-command == 3.0.3
+aiohttp==3.7.4
+configparser==5.2.0
+imageio==2.19.3
+#fake-useragent==0.1.11
+tqdm==4.64.1
+#facebook-scraper
+#requests
+#aiohttp

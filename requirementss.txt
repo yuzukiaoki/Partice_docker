@@ -1,0 +1,4 @@
+git+https://github.com/Rapptz/discord.py
+genshin ~= 1.2.0
+Pillow
+discord-py-slash-command=3.0.3

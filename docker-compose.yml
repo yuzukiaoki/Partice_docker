@@ -1,0 +1,24 @@
+version: '3.8'
+name: yuzukiaoki
+services:
+  hehe123:
+    image: yuzukiaoki/disocrdbot:1.0.5
+    
+    #command: try.py
+    stdin_open: true
+    tty: true
+    volumes:
+      - suisei:/aoki #/aoki ->container裡的虛擬路徑
+    
+    # build:
+    #   context: .
+    #   target: whereIsMe
+volumes:
+  suisei:
+    driver: local
+    
+    driver_opts: 
+      type: 'none'
+      o: 'bind'
+      device: 'C:\C8763' #windows 實體路徑 #可以是不存在的資料夾 會幫你建立
+    #external: true #使用已存在的Volume要加這個
